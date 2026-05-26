@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Framing the Problem — Workshop Series</title>
+    <meta name="description" content="A workshop series on representation construction in cognitive science and AI. CogSci 2026 (Rio) and CCN 2026 (NYU)." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css?v=20260518-1" />
+    <style>
+      /* Root accent for the entire site. Change here to re-brand everything. */
+      .d6-root { --accent: #b4431a; }
+      html, body { margin: 0; padding: 0; background: #fafaf7; }
+      body { font-family: 'Avenir Next', 'Avenir', 'Segoe UI', system-ui, sans-serif; }
+      * { box-sizing: border-box; }
+    </style>
+
+    <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel" src="data.jsx?v=20260518-1"></script>
+    <script type="text/babel" src="app.jsx?v=20260518-1"></script>
+    <script type="text/babel" data-presets="env,react">mountHub();</script>
+  </body>
+</html>
