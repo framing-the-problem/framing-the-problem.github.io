@@ -106,7 +106,7 @@ const EVENTS = {
     pullquote:
       "If the representation is constructed on the fly, what would it look like to actually catch the construction happening?",
     speakers: [
-      { name: "Samuel Gershman",   aff: "Harvard University",                  photo: "photos/samuel-gershman.jpg",    bio: "Computational psychiatry, reinforcement learning, and the representations agents bring to novel tasks." },
+      //{ name: "Samuel Gershman",   aff: "Harvard University",                  photo: "photos/samuel-gershman.jpg",    bio: "Computational psychiatry, reinforcement learning, and the representations agents bring to novel tasks." },
       { name: "Tom Silver",        aff: "Princeton University",                photo: "photos/tom-silver.webp",        bio: "Planning, abstraction discovery, and the interface between symbols and continuous representations." },
       { name: "Lio Wong",          aff: "Stanford University",                 photo: "photos/lio-wong.jpg",           bio: "Language-induced representations and probabilistic models of cognition." },
       { name: "Angela Radulescu",  aff: "Icahn School of Medicine at Mt. Sinai", photo: "photos/angela-radulescu.jpg", bio: "Attention, learning, and how task structure is inferred in dynamic environments." },
@@ -114,7 +114,7 @@ const EVENTS = {
     ],
     programme: [
       { time: "0:00", title: "Live demonstration — naturalistic task", who: "Participant + organizing team", note: "A participant solves an open-ended naturalistic task under instrumented conditions. The demo is the shared object of discussion for the panels that follow." },
-      { time: "0:20", title: "Panel I — Theories & frameworks", who: "Samuel Gershman · Tom Silver · Lio Wong", note: "Moderated panel on the theoretical frames currently available for thinking about naturalistic problem solving." },
+      { time: "0:20", title: "Panel I — Theories & frameworks", who: "Tom Silver · Lio Wong", note: "Moderated panel on the theoretical frames currently available for thinking about naturalistic problem solving." },
       { time: "0:55", title: "Panel II — Tasks & methods", who: "Angela Radulescu · Tyler Bonnen · Lio Wong", note: "Moderated panel on the empirical methods that could make those frames testable." },
       { time: "1:30", title: "Close", who: "Organizing team" },
     ],
