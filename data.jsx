@@ -106,7 +106,6 @@ const EVENTS = {
     pullquote:
       "If the representation is constructed on the fly, what would it look like to actually catch the construction happening?",
     speakers: [
-      //{ name: "Samuel Gershman",   aff: "Harvard University",                  photo: "photos/samuel-gershman.jpg",    bio: "Computational psychiatry, reinforcement learning, and the representations agents bring to novel tasks." },
       { name: "Tom Silver",        aff: "Princeton University",                photo: "photos/tom-silver.webp",        bio: "Planning, abstraction discovery, and the interface between symbols and continuous representations." },
       { name: "Lio Wong",          aff: "Stanford University",                 photo: "photos/lio-wong.jpg",           bio: "Language-induced representations and probabilistic models of cognition." },
       { name: "Angela Radulescu",  aff: "Icahn School of Medicine at Mt. Sinai", photo: "photos/angela-radulescu.jpg", bio: "Attention, learning, and how task structure is inferred in dynamic environments." },
