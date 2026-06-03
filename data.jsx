@@ -163,7 +163,7 @@ const QUESTIONS = [
 ];
 
 const ORGANISERS = [
-  { name: "David G. Nagy",  aff: "TU Darmstadt · MPI Biological Cybernetics", photo: "photos/david-g-nagy.jpg",  url: "https://david-nagy.github.io/" },
+  { name: "David G. Nagy",  aff: "TU Darmstadt · Max Planck Institute",       photo: "photos/david-g-nagy.jpg",  url: "https://david-nagy.github.io/" },
   { name: "Hanqi Zhou",     aff: "University of Tübingen · TU Darmstadt",      photo: "photos/hanqi-zhou.jpg",     url: "https://zhouhq10.github.io/" },
   { name: "Shuze Liu",      aff: "Harvard University",                        photo: "photos/shuze-liu.jpg",      url: "https://kempnerinstitute.harvard.edu/people/our-people/shuze-liu/" },
   { name: "Tracey Mills",   aff: "MIT",                                       photo: "photos/tracey-mills.jpg",   url: "https://temills.github.io/" },
