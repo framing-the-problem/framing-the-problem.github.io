@@ -313,7 +313,7 @@ function D6EventPage({ ev, sibling, peopleLayout }) {
           </D6Reveal>
           <D6Reveal className="d6-grid-160">
             <div />
-            <D6People people={ORGANISERS} layout={peopleLayout} showBio={false} />
+            <D6People people={ev.organisers || ORGANISERS} layout={peopleLayout} showBio={false} />
           </D6Reveal>
         </div>
       </section>
