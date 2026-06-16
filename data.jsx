@@ -48,7 +48,7 @@ const EVENTS = {
       { name: "Lio Wong",           aff: "Stanford University · Postdoc",             photo: "photos/lio-wong.jpg",           bio: "Language-induced representations, probabilistic models of cognition, and program synthesis." },
       { name: "Marcelo Mattar",    aff: "New York University · Assistant Professor", photo: "photos/marcelo-mattar.jpg",     bio: "Reinforcement learning, planning, and the cognitive structures that support flexible problem solving." },
       { name: "Frederick Callaway", aff: "NYU · Incoming AP, Dartmouth",              photo: "photos/frederick-callaway.jpg", bio: "Human metareasoning, planning, and resource rationality." },
-      { name: "Kelsey Allen",       aff: "Google DeepMind · Sr. Research Scientist",  photo: "photos/kelsey-allen.jpg",       bio: "Physical reasoning, tool use, model-based learning, and cognitive AI." },
+      { name: "Ben Prystawski",       aff: "Stanford University",                   photo: "photos/ben-prystawski.jpg",       bio: "Reasoning, cultural transmission, and reinforcement learning." },
       { name: "Samuel Cheyette",    aff: "MIT CoCoSci · Postdoc",                     photo: "photos/samuel-cheyette.jpg",    bio: "Human reasoning, information seeking, and problem solving under limited cognitive resources." },
     ],
     programme: [
