@@ -265,7 +265,7 @@ function D6EventPage({ ev, sibling, peopleLayout }) {
               <dd>{ev.cityShort}<small>{ev.venue}</small></dd>
             </div>
             <div>
-              <dt>{ev.id === "ccn2026" ? "Event day" : "Workshop day"}</dt>
+              <dt>{ev.id === "ccn2026" ? "Event time" : "Workshop day"}</dt>
               <dd>{ev.date}<small>{ev.conferenceDates}</small></dd>
             </div>
             <div>
@@ -273,6 +273,13 @@ function D6EventPage({ ev, sibling, peopleLayout }) {
               <dd>In person<small>{ev.formatDetail}</small></dd>
             </div>
           </dl>
+          {ev.signupLink ? (
+            <div style={{ fontSize: "25px", marginTop: 16, paddingTop: 14, borderTop: "1px solid rgba(17, 24, 39, 0.14)", color: "var(--ink)", fontWeight: 600, width: "100%" }}>
+              <a href={ev.signupLink} target="_blank" rel="noopener noreferrer" style={{ color: "inherit", textDecoration: "underline", textUnderlineOffset: "0.18em" }}>
+                RSVP for the event — and sign up to participate in the <i>live problem-solving demo</i>!
+              </a>
+            </div>
+          ) : null}
         </header>
       </div>
 
